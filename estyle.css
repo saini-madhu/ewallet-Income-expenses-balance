@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.starting{
+    background: linear-gradient(rgb(22, 25, 85), rgb(11, 148, 160));
+    width: 100%;
+    height: 300px;
+}
+.logo img{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 35px;
+}
+.logo h1{
+    display: inline;
+    color: white;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.total_amount{
+    color: aliceblue;
+    margin-top: 5px;
+    margin-left: 45%;
+}
+.total_bal_name{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.total_bal_amount{
+    padding-left: 60px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.income{
+   margin-bottom: 25px;
+   font-size: 30px;
+   color: aliceblue;
+   padding-left: 250px;
+   font-weight: 700;
+}
+.expenses{
+    margin-bottom: 25px;
+   font-size: 30px;
+   color: aliceblue;
+   padding-left: 400px;
+   font-weight: 700;
+
+} 
+#income_exp{
+    display: inline-block;
+    column-count: 2;
+}
+/* .box{
+    background-color: black;
+    width: 300px;
+} */
+.add{
+    background-color: rgb(16, 5, 60);
+    border-bottom: 2px solid rgb(203, 199, 199);
+    padding: 10px;
+    align-content: center;
+
+    
+}
+
+.select_value{
+    border: 2px solid slategray;
+    margin-left: 33%;
+    height: 33px;
+    width: 40px;
+    padding: 5px;
+
+}
+.description{
+    border: 2px solid slategray;
+    height: 30px;
+    width: 180px;
+    padding-left: 5px;
+}
+.amount_add{
+    border: 2px solid slategray;
+    height: 30px;
+    width: 180px;
+    padding-left: 5px;
+
+}
+.submit{
+    border: 2px solid slategray;
+    height: 33px;
+    width: 50px;
+    padding: 5px;
+
+}
+
+.collection{
+    padding: 10px;
+    margin: 20px 80px;
+    border: 2px solid white;
+    box-shadow: 0 5px 5px 5px rgb(92, 89, 89);
+    border-radius: 10px;
+
+
+}
+
+.item{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+}
+.item:not(:last-child) {
+    border-bottom: 1px solid #e7e7e7;
+  }
+  .item .item-description-time{
+    padding-bottom: 0;
+    color: rgb(142, 145, 145);
+    font-size: 15px;
+
+  }
+
+  .item .item-description-time .item-description{
+    font-size: 20px;
+    color: black;
+  }
+
+  .item .item-amount .income-amount{
+    color: green;
+  }
+
+  .item .item-amount .expenses-amount{
+    color: red;
+  }
+  .item .btncross{
+    background: rgb(223, 50, 50);
+    height: 30px;
+    width: 30px;
+  }
+  .item .btncross{
+    margin: 0px, 0px;
+  }
